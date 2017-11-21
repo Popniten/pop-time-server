@@ -8,15 +8,15 @@ Step-by-step notes on what I've done here...
 
 ## API
 
-### GET /time
+### GET `/time`
 
 Get booked time
 
-### POST /time
+### POST `/time`
 
 Book time
 
-Payload
+#### Payload
 
 ```json
 {
