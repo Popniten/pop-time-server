@@ -1,0 +1,27 @@
+{
+  "name": "pop-time-server",
+  "version": "0.0.1",
+  "description": "An API server for a time booking Slack application.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Popniten/pop-time-server.git"
+  },
+  "keywords": [
+    "javascript",
+    "slack",
+    "node",
+    "express",
+    "ansible",
+    "jenkins"
+  ],
+  "author": "Popniten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Popniten/pop-time-server/issues"
+  },
+  "homepage": "https://github.com/Popniten/pop-time-server#readme"
+}
