@@ -18,14 +18,16 @@ Book time
 
 #### Payload
 
+Param | Description
+---|---
+time | zzz
+date | zzz
+
+#### Response
+
 ```json
 {
   "time": "10.45",
   "date": "2017-11-22"
 }
 ```
-
-Param | Description
----|---
-time | zzz
-date | zzz
