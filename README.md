@@ -23,7 +23,7 @@ Param | Description
 time | zzz
 date | zzz
 
-#### Response
+##### Example
 
 ```json
 {
@@ -31,3 +31,10 @@ date | zzz
   "date": "2017-11-22"
 }
 ```
+
+#### Responses
+
+Response | Description
+---|---
+200 | zzz
+400 | zzz
