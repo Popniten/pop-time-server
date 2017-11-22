@@ -7,6 +7,6 @@ const db = {
 }
 
 module.exports = {
-  env,
-  db
+  db,
+  env
 }

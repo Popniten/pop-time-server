@@ -7,7 +7,7 @@ app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
 // Set up API.
-app.use('/api', require('./routes/home'))
+app.use('/time', require('./routes/time'))
 
 // Custom 404 page.
 app.use((req, res) => {
