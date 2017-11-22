@@ -1,14 +1,13 @@
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
+const config = require('./config')
 
 app.use(bodyParser.urlencoded({extended: true}))
 app.use(bodyParser.json())
 
-const PORT = process.env.PORT || 8000
-
 // Set up API.
-app.use('/api', require('./src/routes/home'))
+app.use('/api', require('./routes/home'))
 
 // Custom 404 page.
 app.use((req, res) => {
@@ -25,5 +24,5 @@ app.use((err, req, res, next) => {
 })
 
 // Start it up!
-app.listen(PORT)
-console.log('API is running on port ' + PORT)
+app.listen(config.env.PORT)
+console.log('API is running on port ' + config.env.PORT)
