@@ -6,11 +6,7 @@ A test server for building a time booking Slack app.
 
 Step-by-step notes on what I've done here...
 
-## App functionality
-
-### Extra features
-
-* Ping student 30 minutes before their examination time
+## App features
 
 ### Commands
 
@@ -28,6 +24,11 @@ Teacher/examinator specific
 * `/examination create` - Create examination timeslots
 * `/examination add` - Add day/time to examination
 * `/examination ???` - zzz
+
+### Extra features
+
+* Ping student 30 minutes before their examination time
+  * Needs bot?
 
 ## API
 
@@ -62,11 +63,9 @@ Response | Description
 200 | zzz
 400 | zzz
 
-## App workflow
+## Command workflow
 
-### Create examination timeslots
-
-`/examination create`
+### `/examination create`
 
 * Select days (dates)
 * Input examination length
