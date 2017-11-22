@@ -6,7 +6,13 @@ A test server for building a time booking Slack app.
 
 Step-by-step notes on what I've done here...
 
-## App commands
+## App functionality
+
+### Extra features
+
+* Ping student 30 minutes before their examination time
+
+### Commands
 
 * `/examination` - List helpful examination commands (--help)
 
