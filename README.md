@@ -8,6 +8,8 @@ Step-by-step notes on what I've done here...
 
 ## App commands
 
+* `/examination` - List helpful examination commands (--help)
+
 Student specific:
 
 * `/examination book` - Book a time
