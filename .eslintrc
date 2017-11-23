@@ -9,9 +9,7 @@
   "parserOptions": {
       "sourceType": "module"
   },
-  "globals": {
-      "timerDiv": true
-  },
+  "globals": {},
   "rules": {
       "accessor-pairs": "error",
       "array-bracket-spacing": "error",
